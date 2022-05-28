@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SqliteDemo1">
+
+        <provider
+            android:exported="true"
+            android:authorities="com.bitcode.ecomprovider"
+            android:name=".EComProvider"/>
+
         <activity
             android:name=".NewMainActivity"
             android:exported="true">
